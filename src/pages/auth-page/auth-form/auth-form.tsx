@@ -41,8 +41,8 @@ export const AuthForm = () => {
         console.log("isUserAuthenticated:", isUserAuthenticated);
     
         if (isUserAuthenticated) {
-            navigate('/sorting-form');
             changeIsAuth()
+            navigate('/sorting-form');
         }
     }, []);
     const togglePasswordVisibility = () => {

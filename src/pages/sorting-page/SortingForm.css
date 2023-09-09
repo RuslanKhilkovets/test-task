@@ -1,8 +1,7 @@
 .sorting-form{
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     color: #525252;
-    margin: 40px;
 }
 
 .sorting-form__container{
