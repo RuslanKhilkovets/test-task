@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.react-pdf__Page__textContent.textLayer{
+    display: none;
+}
+.react-pdf__Page__annotations.annotationLayer{
+    display: none;
+}

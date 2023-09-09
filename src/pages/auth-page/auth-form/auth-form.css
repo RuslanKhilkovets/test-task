@@ -1,0 +1,31 @@
+.auth-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+
+}
+.auth-form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: min(100%, 500px);
+    margin: 0 10px ;
+}
+.auth-form__subtitle1{
+    width: min(100%, 450px);
+    color: darkgray;
+}
+.auth-form__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: min(100%, 500px);
+    margin: 0 auto;
+}
+.auth-form__input{
+    width: min(100%, 500px);
+}

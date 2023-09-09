@@ -1,0 +1,21 @@
+{
+    "auth": "Authorization",
+    "logInTitle": "Write datas for log in to personal account",
+    "forgetPassword": "Forget password?",
+    "logInButtonText": "Log in",
+    "sorting": "Sorting",
+    "contract": "Contract",
+    "team": "Team",
+    "surname": "Surname",
+    "name": "Name",
+    "status": "Status",
+    "code": "Code",
+    "patronymic": "Patronymic",
+    "search": "Search",
+    "initials": "Initials",
+    "birthdayDate": "Birthday Date",
+    "import_date": "Import date",
+    "error_404": "Page is not defined",
+    "error_500": "Error while connect to server",
+    "error_link": "Go to the login page"
+}

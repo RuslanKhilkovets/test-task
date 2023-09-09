@@ -1,0 +1,43 @@
+.sorting-form{
+    display: grid;
+    place-items: center;
+    color: #525252;
+    margin: 40px;
+}
+
+.sorting-form__container{
+    width: min(1200px, 100%);
+    border-radius: 10px;
+    background-color: #ededed;
+    border: 1px solid #dfdfdf;
+}
+
+.sorting-form__block{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    padding: 20px;
+
+}
+
+.sorting-form__form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+.sorting-form__table{
+    background-color: #fff;
+}
+.sorting-form__button{
+    width: 300px
+}
+@media (max-width: 1024px){
+    .sorting-form__block{
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width: 768px){
+    .sorting-form__form{
+        grid-template-columns: 1fr;
+    }
+}

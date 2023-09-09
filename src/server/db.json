@@ -1,0 +1,10 @@
+{ 
+    "rows": [
+        {"id": 1, "initials": "Іванов Іван Іванович", "birthdayDate": "19.07.2004", "code": "121071829701", "contract": "ABC", "status": "New" },
+        {"id": 2, "initials": "Зеленський Володимир Олександрович", "birthdayDate": "19.07.2004", "code": "198898970198", "contract": "BCD", "status": "New" },
+        {"id": 3, "initials": "Зубенко Михайло Петрович", "birthdayDate": "19.07.2004", "code": "198898970198", "contract": "ABC", "status": "New" },
+        {"id": 4, "initials": "Петров Петро Петрович", "birthdayDate": "19.07.2004", "code": "198898970198", "contract": "CDE", "status": "New" },
+        {"id": 5, "initials": "Кім Чен Ин", "birthdayDate": "19.07.2004", "code": "198898970198", "contract": "BCD", "status": "New" },
+        {"id": 6, "initials": "Фреско Жак Володимирович", "birthdayDate": "19.07.2004", "code": "198898970198", "contract": "ABC", "status": "New" }
+    ]
+}
