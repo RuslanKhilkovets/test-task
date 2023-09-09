@@ -8,7 +8,7 @@ import PrintIcon from '@mui/icons-material/Print';
 import { useNavigate } from 'react-router-dom';
 
 export interface IDataProperties {
-  id: number; // Додавання id для ідентифікації рядків
+  id: number; 
   contract: string;
   team: string;
   surname: string;
@@ -21,7 +21,7 @@ export interface IDataProperties {
 }
 
 interface DataTableProps {
-  searchValues: IDataProperties; // Фільтр для пошуку
+  searchValues: IDataProperties; 
 }
 
 export default function DataTable({ searchValues }: DataTableProps) {
@@ -74,8 +74,7 @@ export default function DataTable({ searchValues }: DataTableProps) {
   ];
 
   React.useEffect(() => {
-    // Отримання оригінальних даних з серверу
-    const url = "http://localhost:3001/rows"; // Замініть це на URL вашого серверу
+    const url = "http://localhost:3001/rows"; 
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
@@ -103,12 +102,12 @@ export default function DataTable({ searchValues }: DataTableProps) {
         //   setFilteredData(filteredData);
     }
 
-  }, [originalData, searchValues]);
+  }, [searchValues]);
 
   return (
     <div className="data-table">
       <DataGrid
-        rows={originalData} // Відображення відфільтрованих даних
+        rows={originalData} 
         columns={columns}
         autoHeight
         checkboxSelection

@@ -1,6 +1,6 @@
 import AuthPage from "../pages/auth-page/auth-page";
 import Error404 from "../pages/errors/Error404";
-import Error500 from "../pages/errors/Error505";
+import Error500 from "../pages/errors/Error500";
 
 import HomePage from "../pages/home-page/HomePage";
 import PDFreader from "../pages/pdf-reader/PDFViewer";

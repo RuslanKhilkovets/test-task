@@ -5,7 +5,6 @@ import './PDFreader.css';
 import { Button } from '@mui/material';
 import { saveAs } from 'file-saver';
 import { useParams } from 'react-router-dom';
-import Loader from '../../components/Loader/Loader';
 import useQuery from './useQuery';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;

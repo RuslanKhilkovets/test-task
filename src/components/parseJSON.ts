@@ -14,9 +14,8 @@ async function getDataFromURL(url: string): Promise<any> {
     }
     catch (error) {
         const navigate = useNavigate()
-        navigate('*')
-        console.error('Помилка при отриманні або парсингу даних:', error);
-        throw error;
+        navigate('/server-error')
+        
     }
   }
 
