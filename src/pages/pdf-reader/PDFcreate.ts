@@ -2,18 +2,16 @@ import { PDFDocument, rgb  } from 'pdf-lib';
 import getDataFromURL from '../../components/parseJSON';
 import RobotoTTF from './Roboto-Black.ttf'; // Вам потрібно завантажити файл шрифту Arial (наприклад, arial.ttf)
 import fontkit from '@pdf-lib/fontkit';
-import { useNavigate } from 'react-router-dom';
 
 
 const createPDF = async (id: number) => {
-    const navigate = useNavigate()
     const url = `http://localhost:3001/rows/${id}`
     const dataFromServer = await getDataFromURL(url)
         .then(parsedData => {
             return parsedData;
         })
         .catch(() => {
-            navigate("../server-error")
+            window.location.replace("/server-error")
         });
         
     const MicrosoftSansSerifFontUrl = 'https://db.onlinewebfonts.com/t/643e59524d730ce6c6f2384eebf945f8.ttf'
